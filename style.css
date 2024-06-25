@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f4f4;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+.barcode-container {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 900px;
+  height: 424px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.barcode-container h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.barcode-input {
+  padding: 12px 24px;
+  margin: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.generate-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  background: red;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.generate-btn:hover {
+  background: #de0606;
+}
+
+.barcode {
+  margin-top: 20px;
+  max-width: 100%;
+  display: block;
+}
